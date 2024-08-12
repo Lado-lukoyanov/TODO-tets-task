@@ -1,0 +1,40 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.todoItem.completed .text {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid green;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox:checked {
+  background-color: green;
+}
+
+.text {
+  flex: 1;
+  cursor: pointer;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  color: #d9534f;
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.todoViews {
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.todoFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.filters {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  display: flex;
+  gap: 10px;
+}
+.filters button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.filters .selected {
+  border: 2px solid rgb(103, 28, 28);
+}
+.title {
+  color: rgb(103, 28, 28);
+  font-size: 100px;
+  font-weight: 100;
+  margin: 0;
+}
+.todoFooter button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d9534f;
+}
